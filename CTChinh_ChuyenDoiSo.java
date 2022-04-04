@@ -13,8 +13,8 @@ import java.net.Socket;
 public class CTChinh_ChuyenDoiSo {
 	public static void main(String[] args) throws IOException {
 		
-		ServerSocket socketServer = new ServerSocket(1111);
-		System.out.print("Tôi lắng nghe trong cổng 1111  ...");
+		ServerSocket socketServer = new ServerSocket(9999);
+		System.out.print("Tôi lắng nghe trong cổng 9999  ...");
 		int id =0;
 		while(true) {
 			Socket s = socketServer.accept();
