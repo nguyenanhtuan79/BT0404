@@ -18,7 +18,7 @@ public class CTChinh_ChuyenDoiSo {
 		int id =0;
 		while(true) {
 			Socket s = socketServer.accept();
-			//new LuongLamViec(s, id++).start();
+			
 			ChuyenDoiSo_Server luongTask = new ChuyenDoiSo_Server(s, id);
 			luongTask.start();
 		}
