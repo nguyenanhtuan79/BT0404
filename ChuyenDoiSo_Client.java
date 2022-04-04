@@ -12,7 +12,7 @@ public class ChuyenDoiSo_Client {
 	public static void main(String[] args) {
 		try {
 			
-			Socket socket = new Socket("localhost",1111);
+			Socket socket = new Socket("localhost",9999);
 			System.out.print("Conected!");
 			InputStream in = socket.getInputStream();
 			InputStreamReader inReader = new InputStreamReader(in);
